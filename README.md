@@ -20,7 +20,9 @@ The vulnerable Swagger UI bundled version is shown at: [https://github.com/sprin
 Ensure you have JDK 11 available to properly build this.
 
 1. Run: `mvn spring-boot:run`
-2. Navigate to: http://localhost:8080/swagger-ui/index.html?configUrl=https://jumpy-floor.surge.sh/test.json
+2. Navigate to: http://localhost:8080/swagger-ui/index.html?configUrl=https://xss.smarpo.com/test.json
+
+XSS Payloads are hosted at: [seanmarpo/swagger-xss-payloads](https://github.com/seanmarpo/swagger-xss-payloads)
 
 
 ## Copyright
