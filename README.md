@@ -24,6 +24,11 @@ Ensure you have JDK 11 available to properly build this.
 
 XSS Payloads are hosted at: [seanmarpo/swagger-xss-payloads](https://github.com/seanmarpo/swagger-xss-payloads)
 
+## Mitigation / Solutions
+
+Good news, bad news. Springfox appears to no longer be maintained, however [springdoc-openapi](https://github.com/springdoc/springdoc-openapi) is a drop-in replacement that is actively being maintained.
+
+The migration guide to springdoc from springfox can be found at: [https://springdoc.org/#migrating-from-springfox](https://springdoc.org/#migrating-from-springfox).
 
 ## Copyright
 
