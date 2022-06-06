@@ -9,7 +9,7 @@ All credit for code goes to: [evrentan](https://github.com/evrentan) for providi
 Springfox is a commonly used library for JVM-based languages to easily provide JSON documentation.
 Springfox includes a vulnerable version of the Swagger UI with known XSS vulnerabilities.
 
-Because of this, all versions of Springfox appear to be vulnerable to a Swagger XSS issue.
+`io.springfox.springfox-swagger-ui` **2.9.1 to 3.0.0** are vulnerable to XSS attacks.
 
 The affected module appears to be: [io.springfox.springfox-swagger-ui](https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui)
 
